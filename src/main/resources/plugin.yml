@@ -1,0 +1,9 @@
+name: GiftCard
+version: 1.1
+main: com.inferni.giftcard.GiftCard
+api-version: 1.16
+authors: [Inferni]
+description: Made for Inferni Network
+commands:
+  giftcard:
+    description: Main Command

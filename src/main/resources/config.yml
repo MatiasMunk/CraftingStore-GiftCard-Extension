@@ -1,0 +1,20 @@
+#API Token from CraftingStore, found in Webstore -> Servers
+APIToken: ''
+
+#Emailer
+#The Host and Port will work with a GMAIL account
+Host: 'smtp.gmail.com'
+Port: 587
+Username: 'example@gmail.com'
+Password: 'Password123'
+
+EmailIdentity: 'Server Name'
+EmailSubject: 'Gift Code!'
+
+SendMessages: true
+emailSent: '&bSuccessfully sent email to &e%email%'
+createCard: '&bSuccessfully created Gift Card ID: &e%id%'
+recieveCard:
+  - '&bYou have just been given a Gift Card!'
+  - '&bThe code is &e%code%'
+  - '&bAdditionally an email has been sent to you'
